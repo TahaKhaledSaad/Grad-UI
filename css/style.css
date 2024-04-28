@@ -1484,7 +1484,7 @@ ul {
 /* Start Footer */
 .footer {
   background-color: #191919;
-  padding: 70px 0 0;
+  /* padding: 70px 0 0; */
 }
 .footer .container {
   display: grid;
