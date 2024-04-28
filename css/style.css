@@ -1085,7 +1085,7 @@ ul {
     border-radius: 0;
   }
 }
-.events .subscribe form input[type="email"] {
+.events .subscribe form input[type="text"] {
   padding: 20px;
   border: none;
   border-radius: 50px;
@@ -1093,17 +1093,17 @@ ul {
   caret-color: var(--main-color);
 }
 @media (max-width: 767px) {
-  .events .subscribe form input[type="email"] {
+  .events .subscribe form input[type="text"] {
     border-radius: 0;
   }
 }
-.events .subscribe form input[type="email"]:focus {
+.events .subscribe form input[type="text"]:focus {
   outline: none;
 }
-.events .subscribe form input[type="email"]::placeholder {
+.events .subscribe form input[type="text"]::placeholder {
   transition: opacity var(--main-transition);
 }
-.events .subscribe form input[type="email"]:focus::placeholder {
+.events .subscribe form input[type="text"]:focus::placeholder {
   opacity: 0;
 }
 .events .subscribe form input[type="submit"] {
